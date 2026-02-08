@@ -1,0 +1,224 @@
+{
+  "rice": {
+    "npk": {
+      "n_samples": 100,
+      "metrics": {
+        "Nitrogen (N)": {
+          "MAE": 4.508035895353949,
+          "RMSE": 8.325906210202529,
+          "Max_Error": 23.697271207241783,
+          "Accuracy_\u00b110kg": 82.0
+        },
+        "Phosphorus (P)": {
+          "MAE": 0.5249431878321934,
+          "RMSE": 1.7839942207529025,
+          "Max_Error": 10.189574683867448,
+          "Accuracy_\u00b110kg": 99.0
+        },
+        "Potassium (K)": {
+          "MAE": 0.3041001362912803,
+          "RMSE": 1.0847990429756846,
+          "Max_Error": 6.194239555545273,
+          "Accuracy_\u00b110kg": 100.0
+        }
+      }
+    },
+    "yield": {
+      "n_samples": 100,
+      "metrics": {
+        "MAE": 123.14797356770909,
+        "RMSE": 162.78294774649876,
+        "MAPE": 4.133655374716466,
+        "R2_Score": 0.9796755455241367,
+        "Mean_Predicted": 2909.2321896778194,
+        "Mean_Actual": 2896.086314032124,
+        "Accuracy_\u00b1500kg": 99.0
+      }
+    },
+    "irrigation": {
+      "n_samples": 100,
+      "metrics": {
+        "mean_daily_mm": 5.726500000000001,
+        "mean_weekly_mm": 5.092099999999999,
+        "std_weekly_mm": 7.648002915140657,
+        "min_weekly_mm": 0.0,
+        "max_weekly_mm": 45.16,
+        "reasonable_range_pct": 100.0
+      }
+    }
+  },
+  "wheat": {
+    "npk": {
+      "n_samples": 100,
+      "metrics": {
+        "Nitrogen (N)": {
+          "MAE": 4.508035895353949,
+          "RMSE": 8.325906210202529,
+          "Max_Error": 23.697271207241783,
+          "Accuracy_\u00b110kg": 82.0
+        },
+        "Phosphorus (P)": {
+          "MAE": 0.5249431878321934,
+          "RMSE": 1.7839942207529025,
+          "Max_Error": 10.189574683867448,
+          "Accuracy_\u00b110kg": 99.0
+        },
+        "Potassium (K)": {
+          "MAE": 0.3041001362912803,
+          "RMSE": 1.0847990429756846,
+          "Max_Error": 6.194239555545273,
+          "Accuracy_\u00b110kg": 100.0
+        }
+      }
+    },
+    "yield": {
+      "n_samples": 100,
+      "metrics": {
+        "MAE": 123.14797356770909,
+        "RMSE": 162.78294774649876,
+        "MAPE": 4.133655374716466,
+        "R2_Score": 0.9796755455241367,
+        "Mean_Predicted": 2909.2321896778194,
+        "Mean_Actual": 2896.086314032124,
+        "Accuracy_\u00b1500kg": 99.0
+      }
+    },
+    "irrigation": {
+      "n_samples": 100,
+      "metrics": {
+        "mean_daily_mm": 5.726500000000001,
+        "mean_weekly_mm": 5.092099999999999,
+        "std_weekly_mm": 7.648002915140657,
+        "min_weekly_mm": 0.0,
+        "max_weekly_mm": 45.16,
+        "reasonable_range_pct": 100.0
+      }
+    }
+  },
+  "maize": {
+    "npk": {
+      "n_samples": 100,
+      "metrics": {
+        "Nitrogen (N)": {
+          "MAE": 7.469739797813813,
+          "RMSE": 11.589355560285828,
+          "Max_Error": 29.697271207241783,
+          "Accuracy_\u00b110kg": 75.0
+        },
+        "Phosphorus (P)": {
+          "MAE": 0.9846911156038726,
+          "RMSE": 2.6766456894078825,
+          "Max_Error": 13.189574683867448,
+          "Accuracy_\u00b110kg": 97.0
+        },
+        "Potassium (K)": {
+          "MAE": 1.6367981008291859,
+          "RMSE": 3.6542046966598316,
+          "Max_Error": 13.19423955554528,
+          "Accuracy_\u00b110kg": 97.0
+        }
+      }
+    },
+    "yield": {
+      "n_samples": 100,
+      "metrics": {
+        "MAE": 123.14797356770909,
+        "RMSE": 162.78294774649876,
+        "MAPE": 4.133655374716466,
+        "R2_Score": 0.9796755455241367,
+        "Mean_Predicted": 2909.2321896778194,
+        "Mean_Actual": 2896.086314032124,
+        "Accuracy_\u00b1500kg": 99.0
+      }
+    },
+    "irrigation": {
+      "n_samples": 100,
+      "metrics": {
+        "mean_daily_mm": 5.726500000000001,
+        "mean_weekly_mm": 5.092099999999999,
+        "std_weekly_mm": 7.648002915140657,
+        "min_weekly_mm": 0.0,
+        "max_weekly_mm": 45.16,
+        "reasonable_range_pct": 100.0
+      }
+    }
+  },
+  "cotton": {
+    "npk": {
+      "n_samples": 100,
+      "metrics": {
+        "Nitrogen (N)": {
+          "MAE": 4.508035895353949,
+          "RMSE": 8.325906210202529,
+          "Max_Error": 23.697271207241783,
+          "Accuracy_\u00b110kg": 82.0
+        },
+        "Phosphorus (P)": {
+          "MAE": 0.5249431878321934,
+          "RMSE": 1.7839942207529025,
+          "Max_Error": 10.189574683867448,
+          "Accuracy_\u00b110kg": 99.0
+        },
+        "Potassium (K)": {
+          "MAE": 0.606868885575588,
+          "RMSE": 1.717560586490917,
+          "Max_Error": 8.194239555545273,
+          "Accuracy_\u00b110kg": 100.0
+        }
+      }
+    },
+    "yield": {
+      "n_samples": 100,
+      "metrics": {
+        "MAE": 123.14797356770909,
+        "RMSE": 162.78294774649876,
+        "MAPE": 4.133655374716466,
+        "R2_Score": 0.9796755455241367,
+        "Mean_Predicted": 2909.2321896778194,
+        "Mean_Actual": 2896.086314032124,
+        "Accuracy_\u00b1500kg": 99.0
+      }
+    },
+    "irrigation": {
+      "n_samples": 100,
+      "metrics": {
+        "mean_daily_mm": 5.726500000000001,
+        "mean_weekly_mm": 5.092099999999999,
+        "std_weekly_mm": 7.648002915140657,
+        "min_weekly_mm": 0.0,
+        "max_weekly_mm": 45.16,
+        "reasonable_range_pct": 100.0
+      }
+    }
+  },
+  "ndvi_interpretation": {
+    "n_samples": 200,
+    "accuracy": 96.5,
+    "confusion_matrix": {
+      "healthy": {
+        "healthy": 62,
+        "moderate": 0,
+        "stressed": 0,
+        "critical": 0
+      },
+      "moderate": {
+        "healthy": 7,
+        "moderate": 35,
+        "stressed": 0,
+        "critical": 0
+      },
+      "stressed": {
+        "healthy": 0,
+        "moderate": 0,
+        "stressed": 36,
+        "critical": 0
+      },
+      "critical": {
+        "healthy": 0,
+        "moderate": 0,
+        "stressed": 0,
+        "critical": 60
+      }
+    }
+  }
+}
